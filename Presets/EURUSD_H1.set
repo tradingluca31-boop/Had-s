@@ -1,0 +1,41 @@
+; Hadès EA - EURUSD H1 Preset
+; Optimized for FTMO Challenge
+
+; === RISK MANAGEMENT FTMO ===
+InpRiskPercent=1.0
+InpMaxDailyDrawdown=4.5
+InpMaxTotalDrawdown=9.0
+InpMaxTradesPerDay=2
+InpMaxOpenTrades=1
+
+; === STRATEGY PARAMETERS ===
+InpRiskReward=3.0
+InpEmaFast=21
+InpEmaMedium=50
+InpEmaSlow=200
+InpRsiPeriod=14
+InpRsiOverbought=70
+InpRsiOversold=30
+InpAtrPeriod=14
+InpAtrMultiplier=1.5
+
+; === TRAILING STOP ===
+InpUseTrailingStop=true
+InpTrailingAtrMult=1.0
+InpTrailingStartPips=30
+
+; === SESSION FILTER ===
+InpUseSessions=true
+InpLondonStart=8
+InpLondonEnd=17
+InpNewYorkStart=13
+InpNewYorkEnd=22
+
+; === BREAKOUT SETTINGS ===
+InpBreakoutPeriod=20
+InpBreakoutShift=1
+
+; === GENERAL SETTINGS ===
+InpMagicNumber=2024001
+InpTradeComment=Hades_EURUSD
+InpTimeframe=16385
